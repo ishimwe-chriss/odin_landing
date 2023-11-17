@@ -83,3 +83,25 @@ button{
     border-radius: 10px;
     margin-top: 10px;
 }
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: 2px solid #3882f6;
+    padding: 65px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.second{
+    margin-left: 50px;
+}

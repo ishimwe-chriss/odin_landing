@@ -43,22 +43,43 @@ header {
 .content-right h1{
      font-size: 48px;
      font-weight: bolder;
-     color:#F9FAF8
+     color:#F9FAF8;
+     
 }
 .content-right P{
     font-size: 18px;
     color: #E5E7EB;
+    
 }
 .content-left img{
-    width: 500px;
+    width: 400px;
+    margin: 50px;
 }
 .content{
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
-.content-left, .content-right{
+.content-left{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+}
+.content-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 200px;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px #3882f6;
+    border-radius: 10px;
+    margin-top: 10px;
 }

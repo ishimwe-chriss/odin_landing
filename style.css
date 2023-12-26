@@ -105,3 +105,78 @@ h2{
 .second{
     margin-left: 50px;
 }
+.Third_section{
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+h3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.p-third{
+    font-size: 36px;
+    text-align: end;
+}
+#p-div{
+    display: flex;
+    margin-left: 400px;    
+}
+.last-div{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-div{
+    background-color: #3882f6;
+    width: 75%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+.left{
+    width: 80%;
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h4{
+    font-size: 24px;
+    color: white;
+   
+}
+.last-p{
+    color: white;
+   
+}
+.right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn-last-div{
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    height: 75px;
+    padding-top: 30px;
+}
